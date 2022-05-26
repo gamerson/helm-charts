@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  dxp-localdev:
+  - apiVersion: v1
+    appVersion: 7.4.13
+    created: "2022-05-25T23:43:39.323353-05:00"
+    description: Deploy DXP locally for development
+    digest: 966b6e359171b7d88d1fcc97f94410696423664f440dfb5521fc3615470206b8
+    name: dxp-localdev
+    urls:
+    - https://github.com/gamerson/lxc-helm-charts/releases/download/dxp-localdev-0.1.0/dxp-localdev-0.1.0.tgz
+    version: 0.1.0
+  static-localdev:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-05-25T23:43:39.520259-05:00"
+    description: Deploy Static resource container
+    digest: eec36f2f3ff3171245b9a45b60bf7c7fd9b5e32905f704feea0f97c474b674ed
+    name: static-localdev
+    urls:
+    - https://github.com/gamerson/lxc-helm-charts/releases/download/static-localdev-0.1.0/static-localdev-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-25T23:43:39.52027-05:00"
